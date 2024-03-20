@@ -19,7 +19,7 @@ def game():
         
         while True:
             b = sum(dice())
-            print(f"Next is {b}")
+            print(f"Next is: {b}")
             
             if b == 7:
                 print("You lose!")
