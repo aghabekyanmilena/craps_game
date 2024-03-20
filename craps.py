@@ -15,7 +15,7 @@ def game():
         return
     else:
         a = first
-        print(f"Your goal is: {a}")
+        print(f"Your goal is {a}")
         
         while True:
             b = sum(dice())
